@@ -1,0 +1,79 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 50px;
+    line-height: 1.1;
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hero-left .collections, .hero-left .everyone, .hero-hand-icon p {
+    color: #171717;
+    font-size: 4rem; /* Updated to match the size */
+    font-weight: 700;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-hand-icon img {
+    width: 50px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero-latest-btn:hover {
+    background: #e63a3a;
+}
+
+.hero-latest-btn .btn-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
